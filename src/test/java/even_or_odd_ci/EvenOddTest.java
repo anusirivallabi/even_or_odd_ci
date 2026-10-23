@@ -30,4 +30,8 @@ public class EvenOddTest {
     void testNegativeOddNumber() {
         assertFalse(EvenOdd.isEven(-3));
     }
+    @Test
+    void deliberateFailureForDemo() {
+    assertEquals("Even", "Odd");
+}
 }
